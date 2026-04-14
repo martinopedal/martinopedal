@@ -2,7 +2,7 @@
 
 Lead Cloud Solution Architect at Microsoft. Azure Landing Zones, AKS, Terraform, security, sovereign cloud.
 
-Ran datacenters for nearly a decade before this. Co-founded two craft breweries on the side. Most of what I ship here is built in collaboration with GitHub Copilot, including the agentic coding features. I do the architecture, Copilot handles the grunt work.
+Ran datacenters for nearly a decade before this. Co-founded two craft breweries on the side. Most of what I ship here is built with Copilot. It writes most of the code, I steer the architecture and review the output.
 
 ## Repos
 
@@ -12,7 +12,7 @@ Terraform modules, ARG queries, and tooling that came out of real customer engag
 
 | Repo | What it does | Stack |
 |------|-------------|-------|
-| [terraform-azurerm-avm-ptn-cicd-agents-and-runners](https://github.com/martinopedal/terraform-azurerm-avm-ptn-cicd-agents-and-runners) | Azure Verified Module for self-hosted ADO agents and GitHub runners. PAT and UAMI auth. | Terraform, Azure Container Apps |
+| [terraform-azurerm-avm-ptn-cicd-agents-and-runners](https://github.com/martinopedal/terraform-azurerm-avm-ptn-cicd-agents-and-runners) | Official AVM contribution. Self-hosted ADO agents and GitHub runners with PAT and UAMI auth. | Terraform, Azure Container Apps |
 | [terraform-azurerm-github-runners-alz-corp](https://github.com/martinopedal/terraform-azurerm-github-runners-alz-corp) | Self-hosted runners on Container Apps for ALZ Corp subscriptions. Central firewall egress, no public IPs. | Terraform, ACA, Azure Firewall |
 | [ghec-vnet-runners-azure](https://github.com/martinopedal/ghec-vnet-runners-azure) | GitHub-hosted runners with Azure VNet integration. Built for GHE.com with EU data residency. | Terraform, Azure Networking |
 
@@ -20,7 +20,7 @@ Terraform modules, ARG queries, and tooling that came out of real customer engag
 
 | Repo | What it does | Stack |
 |------|-------------|-------|
-| [alz-graph-queries](https://github.com/martinopedal/alz-graph-queries) | 135 Azure Resource Graph queries for ALZ checklist validation. Takes automated coverage from 49 queries (19%) to 135 (53%). | PowerShell, ARG |
+| [alz-graph-queries](https://github.com/martinopedal/alz-graph-queries) | 135 Azure Resource Graph queries for the 255-item ALZ checklist. Takes automated coverage from the baseline 49 queries to 135. | PowerShell, ARG |
 
 ### Kubernetes
 
@@ -36,4 +36,4 @@ Terraform modules, ARG queries, and tooling that came out of real customer engag
 
 ## Elsewhere
 
-[LinkedIn](https://www.linkedin.com/in/martin-opedal). I write about Landing Zones, Kubernetes, and AI platforms there. I speak at NIC on Terraform, GitHub Copilot, and IaC security.
+[LinkedIn](https://www.linkedin.com/in/martin-opedal). I write about Landing Zones and Kubernetes there. I speak at NIC on Terraform, GitHub Copilot, and IaC security.
