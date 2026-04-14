@@ -1,29 +1,39 @@
 # Martin Opedal
 
-Lead Cloud Solution Architect at Microsoft. I design Azure platforms for enterprises, Landing Zone foundations, Kubernetes platforms, security architectures, and sovereign cloud for regulated environments.
+Lead Cloud Solution Architect at Microsoft. Azure Landing Zones, AKS, Terraform, security, sovereign cloud.
 
-Before this I ran datacenters for nearly a decade and co-founded two craft breweries. Building things from scratch is a pattern.
+Ran datacenters for nearly a decade before this. Co-founded two craft breweries on the side. Most of what I ship here is built in collaboration with GitHub Copilot, including the agentic coding features. I do the architecture, Copilot handles the grunt work.
 
-I peer program with GitHub Copilot daily and use agentic features like Copilot Coding Agent across most of what I ship here. The architectural thinking stays human. The velocity does not.
+## Repos
 
-## What is in here
+Terraform modules, ARG queries, and tooling that came out of real customer engagements.
 
-Terraform modules, Azure Resource Graph queries, and operational tooling from real engagements. Nothing here started as a demo. Everything solved an actual problem.
+### Runners and CI/CD
 
-**Runners and CI/CD**
-- [terraform-azurerm-avm-ptn-cicd-agents-and-runners](https://github.com/martinopedal/terraform-azurerm-avm-ptn-cicd-agents-and-runners) - Azure Verified Module for self-hosted ADO agents and GitHub runners
-- [terraform-azurerm-github-runners-alz-corp](https://github.com/martinopedal/terraform-azurerm-github-runners-alz-corp) - Self-hosted runners on Container Apps with ALZ Corp and central firewall egress
-- [ghec-vnet-runners-azure](https://github.com/martinopedal/ghec-vnet-runners-azure) - GitHub-hosted runners with Azure VNet integration and EU data residency
+| Repo | What it does | Stack |
+|------|-------------|-------|
+| [terraform-azurerm-avm-ptn-cicd-agents-and-runners](https://github.com/martinopedal/terraform-azurerm-avm-ptn-cicd-agents-and-runners) | Azure Verified Module for self-hosted ADO agents and GitHub runners. PAT and UAMI auth. | Terraform, Azure Container Apps |
+| [terraform-azurerm-github-runners-alz-corp](https://github.com/martinopedal/terraform-azurerm-github-runners-alz-corp) | Self-hosted runners on Container Apps for ALZ Corp subscriptions. Central firewall egress, no public IPs. | Terraform, ACA, Azure Firewall |
+| [ghec-vnet-runners-azure](https://github.com/martinopedal/ghec-vnet-runners-azure) | GitHub-hosted runners with Azure VNet integration. Built for GHE.com with EU data residency. | Terraform, Azure Networking |
 
-**Landing Zones and governance**
-- [alz-graph-queries](https://github.com/martinopedal/alz-graph-queries) - 135 Azure Resource Graph queries for Landing Zone checklist validation. Takes automated coverage from 19% to 53%.
+### Landing Zones
 
-**Kubernetes**
-- [terraform-azapi-aks-automatic](https://github.com/martinopedal/terraform-azapi-aks-automatic) - AKS Automatic with ALZ Corp networking, BYO VNet, and multiple ingress/egress options
+| Repo | What it does | Stack |
+|------|-------------|-------|
+| [alz-graph-queries](https://github.com/martinopedal/alz-graph-queries) | 135 Azure Resource Graph queries for ALZ checklist validation. Takes automated coverage from 49 queries (19%) to 135 (53%). | PowerShell, ARG |
 
-**Operations**
-- [azure-quota-reports](https://github.com/martinopedal/azure-quota-reports) - Quota reporting across Azure subscriptions, exported to CSV
+### Kubernetes
+
+| Repo | What it does | Stack |
+|------|-------------|-------|
+| [terraform-azapi-aks-automatic](https://github.com/martinopedal/terraform-azapi-aks-automatic) | AKS Automatic with ALZ Corp networking. BYO VNet, multiple ingress options (AGC, NGINX, Istio), multiple egress options (NAT GW, UDR, LB). | Terraform, azapi |
+
+### Operations
+
+| Repo | What it does | Stack |
+|------|-------------|-------|
+| [azure-quota-reports](https://github.com/martinopedal/azure-quota-reports) | Collects compute and network quotas across Azure subscriptions. Exports to CSV. | PowerShell |
 
 ## Elsewhere
 
-I write about Landing Zones, Kubernetes, and AI platforms on [LinkedIn](https://www.linkedin.com/in/martin-opedal). I speak at NIC on Terraform, GitHub Copilot, and IaC security.
+[LinkedIn](https://www.linkedin.com/in/martin-opedal). I write about Landing Zones, Kubernetes, and AI platforms there. I speak at NIC on Terraform, GitHub Copilot, and IaC security.
