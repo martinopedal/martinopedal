@@ -1,36 +1,29 @@
-# Hey, I'm Martin 👋
+# Martin Opedal
 
-**Lead Cloud Solution Architect at Microsoft** | Azure Landing Zones, AKS, Terraform, Security
+Lead Cloud Solution Architect at Microsoft. I design Azure platforms for enterprises — Landing Zones, Kubernetes, security, and sovereign cloud.
 
-I co-founded two craft breweries, then went all-in on cloud architecture. Building things from scratch is a pattern — whether it's cloud platforms or production facilities.
+Before cloud, I ran datacenters and co-founded two craft breweries. Building things from scratch is a pattern.
 
-I design Azure platforms for enterprises: Landing Zone foundations, Kubernetes platforms, security architectures, and AI adoption strategies for regulated environments. 14 years in this industry, from running datacenters to architecting at scale.
+I peer program with GitHub Copilot daily and use agentic features like Copilot Coding Agent across most of what I ship. Not as a shortcut, but because it lets me move faster without cutting corners.
 
-## How I work
+## What you will find here
 
-I peer program with GitHub Copilot and use agentic features like Copilot Coding Agent to accelerate everything from Terraform modules to documentation. AI-assisted development is not a shortcut — it is a force multiplier that lets me ship higher quality work, faster, while keeping the architectural thinking human.
+Terraform modules, Azure Resource Graph queries, and tooling I use in real engagements. Everything here started as a solution to an actual customer problem.
 
-## What I build and share
+**Runners and CI/CD**
+- [terraform-azurerm-avm-ptn-cicd-agents-and-runners](https://github.com/martinopedal/terraform-azurerm-avm-ptn-cicd-agents-and-runners) — Azure Verified Module for ADO agents and GitHub runners
+- [terraform-azurerm-github-runners-alz-corp](https://github.com/martinopedal/terraform-azurerm-github-runners-alz-corp) — Self-hosted runners on Container Apps with ALZ Corp and central firewall egress
+- [ghec-vnet-runners-azure](https://github.com/martinopedal/ghec-vnet-runners-azure) — GitHub-hosted runners with Azure VNet integration and EU data residency
 
-🏗️ **Azure Landing Zones** — governance, networking, identity, and sovereign cloud for regulated enterprises  
-☸️ **Kubernetes at scale** — AKS Automatic, platform engineering, cloud-native adoption  
-🔐 **Security & IaC** — Well-Architected Reviews, Terraform, Bicep, zero-trust design  
+**Landing Zones and governance**
+- [alz-graph-queries](https://github.com/martinopedal/alz-graph-queries) — 135 Azure Resource Graph queries for Landing Zone checklist validation. Takes automated coverage from 19% to 53%.
 
-## Featured repos
+**Kubernetes**
+- [terraform-azapi-aks-automatic](https://github.com/martinopedal/terraform-azapi-aks-automatic) — AKS Automatic with ALZ Corp networking, BYO VNet, and multiple ingress/egress options
 
-| Repo | What it does |
-|------|-------------|
-| [terraform-azurerm-avm-ptn-cicd-agents-and-runners](https://github.com/martinopedal/terraform-azurerm-avm-ptn-cicd-agents-and-runners) | Azure Verified Module for self-hosted ADO agents and GitHub runners |
-| [terraform-azurerm-github-runners-alz-corp](https://github.com/martinopedal/terraform-azurerm-github-runners-alz-corp) | GitHub runners on Azure Container Apps with ALZ Corp integration |
-| [ghec-vnet-runners-azure](https://github.com/martinopedal/ghec-vnet-runners-azure) | GitHub Enterprise Cloud runners with Azure VNet integration and EU data residency |
-| [alz-graph-queries](https://github.com/martinopedal/alz-graph-queries) | 135 Azure Resource Graph queries for Landing Zone assessment — 53% automated coverage |
-| [azure-quota-reports](https://github.com/martinopedal/azure-quota-reports) | Collect Azure compute and network quotas and export to CSV |
-| [terraform-azapi-aks-automatic](https://github.com/martinopedal/terraform-azapi-aks-automatic) | AKS Automatic cluster deployment using azapi with ALZ Corp networking |
+**Operations**
+- [azure-quota-reports](https://github.com/martinopedal/azure-quota-reports) — Quota reporting across Azure subscriptions, exported to CSV
 
-## Speaking
+## Elsewhere
 
-I speak at conferences like the [Nordic Infrastructure Conference](https://www.nicconf.com/) on Terraform, GitHub Copilot, and IaC security. I run architecture workshops for enterprise audiences.
-
-## Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-martin--opedal-blue?logo=linkedin)](https://www.linkedin.com/in/martin-opedal)
+I write about Landing Zones, Kubernetes, and AI platforms on [LinkedIn](https://www.linkedin.com/in/martin-opedal). I speak at conferences like NIC on Terraform, GitHub Copilot, and IaC security.
