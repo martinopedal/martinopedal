@@ -28,11 +28,24 @@ Terraform modules, ARG queries, and tooling that came out of real customer engag
 |------|-------------|-------|
 | [terraform-azapi-aks-automatic](https://github.com/martinopedal/terraform-azapi-aks-automatic) | AKS Automatic with ALZ Corp networking. BYO VNet, multiple ingress options (AGC, NGINX, Istio), multiple egress options (NAT GW, UDR, LB). | Terraform, azapi |
 
+### Assessment and governance
+
+| Repo | What it does | Stack |
+|------|-------------|-------|
+| [azure-analyzer](https://github.com/martinopedal/azure-analyzer) | Wraps 30+ Azure assessment tools (azqr, PSRule, AzGovViz, ALZ queries, and more) into one PowerShell runner with a unified finding schema. HTML and Markdown reports, cloud-first repo scanning with token scrub. | PowerShell, ARG |
+
 ### Operations
 
 | Repo | What it does | Stack |
 |------|-------------|-------|
 | [azure-quota-reports](https://github.com/martinopedal/azure-quota-reports) | Collects compute and network quotas across Azure subscriptions. Exports to CSV. | PowerShell |
+
+### Copilot and content
+
+| Repo | What it does | Stack |
+|------|-------------|-------|
+| [obsidian-memory-template](https://github.com/martinopedal/obsidian-memory-template) | Persistent memory system for GitHub Copilot, backed by an Obsidian vault. Karpathy-style memory pattern with Squad agents. | Markdown, PowerShell |
+| [linkedin-auto-poster](https://github.com/martinopedal/linkedin-auto-poster) | Drafts LinkedIn posts from RSS sources, scores relevance, fact-checks, and publishes through a GitHub PR approval workflow. The posts on my LinkedIn are drafted through it. | Python, GitHub Actions |
 
 ## Elsewhere
 
