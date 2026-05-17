@@ -8,7 +8,7 @@ I write longer-form on [opedal.tech](https://opedal.tech). Shorter posts on Land
 
 ## Highlights
 
-- Author of an official Azure Verified Modules pattern: [`terraform-azurerm-avm-ptn-cicd-agents-and-runners`](https://github.com/martinopedal/terraform-azurerm-avm-ptn-cicd-agents-and-runners)
+- Contributor to an Azure Verified Modules pattern proposal: [`terraform-azurerm-avm-ptn-cicd-agents-and-runners`](https://github.com/martinopedal/terraform-azurerm-avm-ptn-cicd-agents-and-runners) (not yet upstream)
 - 135 Azure Resource Graph queries for the ALZ checklist, lifting automated coverage from the baseline 49 to 135
 - NIC speaker on Terraform, GitHub Copilot, and IaC security. Live-streamed Level 300 session, 94% approval
 - Microsoft Certified Azure Solutions Architect Expert, Cybersecurity Architect Expert, DevOps Engineer Expert
@@ -41,7 +41,7 @@ Same grouping I use on [opedal.tech](https://opedal.tech), with a few extras tha
 
 | Repo | What it does | Stack |
 |------|--------------|-------|
-| [terraform-azurerm-avm-ptn-cicd-agents-and-runners](https://github.com/martinopedal/terraform-azurerm-avm-ptn-cicd-agents-and-runners) | Official AVM pattern module for self-hosted ADO agents and GitHub runners with PAT and UAMI auth. No public IP egress. | Terraform, Azure Container Apps |
+| [terraform-azurerm-avm-ptn-cicd-agents-and-runners](https://github.com/martinopedal/terraform-azurerm-avm-ptn-cicd-agents-and-runners) | AVM-style pattern module proposal for self-hosted ADO agents and GitHub runners with PAT and UAMI auth. No public IP egress. Not yet upstream in Azure Verified Modules. | Terraform, Azure Container Apps |
 | [terraform-azurerm-github-runners-alz-corp](https://github.com/martinopedal/terraform-azurerm-github-runners-alz-corp) | Self-hosted GitHub Actions runners that run inside ALZ Corp landing zones with central firewall egress. | Terraform, ACA, Azure Firewall |
 | [ghec-vnet-runners-azure](https://github.com/martinopedal/ghec-vnet-runners-azure) | GitHub-hosted runners with Azure VNet integration for GHE.com. EU data residency, private endpoint connectivity. | Terraform, Azure Networking |
 
