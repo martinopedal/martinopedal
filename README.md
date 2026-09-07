@@ -2,7 +2,7 @@
 
 I build Azure platforms for regulated Nordic enterprises. Mostly Landing Zones, AKS, Terraform, private networking, and the parts that break when the diagram meets production.
 
-Cloud Solution Architect, based in Oslo. Started with Azure in 2011 at a Norwegian systems integrator, ran datacenters through that decade, and now architect Landing Zones, AKS Automatic, and AI Foundry deployments for banks, government, energy, and defense customers in the Nordics.
+Cloud Solution Architect. Started with Azure in 2011 at a Norwegian systems integrator, ran datacenters through that decade, and now architect Landing Zones, AKS Automatic, and AI Foundry deployments for banks, government, energy, and defense customers in the Nordics.
 
 I write longer-form on [opedal.tech](https://opedal.tech). Shorter posts on Landing Zones, AKS, and IaC security on [LinkedIn](https://www.linkedin.com/in/martin-opedal).
 
@@ -86,5 +86,3 @@ _No additional public repos to surface right now. Every active repo with a descr
 The architecture, constraints, and review are mine. On the side I co-founded two craft breweries in Norway (Cervisiam, Krecher). Fermentation and infrastructure both reward tight feedback loops.
 
 If something here helped, a star or a follow is appreciated. It helps more than people think when I submit to CFPs, and issues or PRs are always welcome.
-
-Find me elsewhere: [opedal.tech](https://opedal.tech), [LinkedIn](https://www.linkedin.com/in/martin-opedal).
