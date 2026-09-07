@@ -1,8 +1,8 @@
-# Martin Opedal
+# Martin
 
 I build Azure platforms for regulated Nordic enterprises. Mostly Landing Zones, AKS, Terraform, private networking, and the parts that break when the diagram meets production.
 
-Lead Cloud Solution Architect at Microsoft, based in Oslo. Started with Azure in 2011 at a Norwegian systems integrator, ran datacenters through that decade, joined Microsoft to architect Landing Zones, AKS Automatic, and AI Foundry deployments for banks, government, energy, and defense customers in the Nordics.
+Cloud Solution Architect, based in Oslo. Started with Azure in 2011 at a Norwegian systems integrator, ran datacenters through that decade, and now architect Landing Zones, AKS Automatic, and AI Foundry deployments for banks, government, energy, and defense customers in the Nordics.
 
 I write longer-form on [opedal.tech](https://opedal.tech). Shorter posts on Landing Zones, AKS, and IaC security on [LinkedIn](https://www.linkedin.com/in/martin-opedal).
 
@@ -19,7 +19,7 @@ I write longer-form on [opedal.tech](https://opedal.tech). Shorter posts on Land
 | Venue | Session | Signal |
 |---|---|---|
 | Nordic Infrastructure Conference (NIC) | Live-streamed Level 300 session on Terraform, GitHub Copilot, IaC security | 94% approval |
-| Microsoft internal events | Architecture and platform sessions | 50 to 100 in-person, 200+ virtual |
+| Internal conference events | Architecture and platform sessions | 50 to 100 in-person, 200+ virtual |
 
 Open to speaking on Azure Landing Zones, AKS Automatic, Terraform and AVM, IaC security, and AI-assisted infrastructure development. Reach me via [opedal.tech](https://opedal.tech).
 
